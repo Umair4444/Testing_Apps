@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`UI Snapshot Test matches the snapshot of Calculator + Greeting 1`] = `
+<DocumentFragment>
+  <div
+    class="max-w-sm mx-auto p-4 border rounded-lg shadow-md mt-10 text-center"
+  >
+    <h1
+      class="text-2xl font-bold mb-4"
+    >
+      🧮 Simple Calculator
+    </h1>
+    <input
+      class="w-full p-2 mb-2 border rounded"
+      placeholder="Enter first number"
+      type="number"
+      value=""
+    />
+    <input
+      class="w-full p-2 mb-4 border rounded"
+      placeholder="Enter second number"
+      type="number"
+      value=""
+    />
+    <div
+      class="flex justify-center gap-2 mb-4"
+    >
+      <button
+        class="bg-blue-500 text-white px-4 py-2 rounded"
+      >
+        +
+      </button>
+      <button
+        class="bg-green-500 text-white px-4 py-2 rounded"
+      >
+        −
+      </button>
+      <button
+        class="bg-yellow-500 text-white px-4 py-2 rounded"
+      >
+        ×
+      </button>
+      <button
+        class="bg-red-500 text-white px-4 py-2 rounded"
+      >
+        ÷
+      </button>
+    </div>
+  </div>
+  <h1>
+    Hello, Leonardo 👋
+  </h1>
+</DocumentFragment>
+`;
