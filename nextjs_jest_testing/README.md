@@ -44,5 +44,9 @@ npm run test
 to update snapshot
 npm run test -- -u
 
+// Show individual test results with the test suite hierarchy  or enable it in jest.config.ts
+npm test -- --verbose
+
+
 
 video tutorial for help : https://www.youtube.com/watch?v=g3GFZx1KyWs
